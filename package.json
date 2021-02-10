@@ -1,0 +1,26 @@
+{
+  "name": "interfaces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aomineDev/interfaces-ts.git"
+  },
+  "keywords": [],
+  "author": "aomine Dev <aomine1745@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aomineDev/interfaces-ts/issues"
+  },
+  "homepage": "https://github.com/aomineDev/interfaces-ts#readme",
+  "dependencies": {
+    "node-fetch": "2.6.1"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.8"
+  }
+}
