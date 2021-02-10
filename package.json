@@ -2,9 +2,12 @@
   "name": "interfaces",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "tsc -w",
+    "env": "nodemon dist/index.js",
+    "build": "tsc",
+    "serve": "node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,6 @@
     "node-fetch": "2.6.1"
   },
   "devDependencies": {
-    "@types/node-fetch": "^2.5.8"
+    "@types/node-fetch": "2.5.8"
   }
 }
